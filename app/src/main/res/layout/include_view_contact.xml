@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="180dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tv_info_viewContact"
+        />
+
+    <TextView
+        android:id="@+id/tv_viewContact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_info_viewContact"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="number"
+        android:layout_below="@id/tv_viewContact_name"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tv_number_viewContact"
+        />
+    <TextView
+        android:id="@+id/tv_viewContact_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_info_viewContact"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/tv_number_viewContact"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_delete"
+        android:layout_marginTop="320dp"/>
+</RelativeLayout>
