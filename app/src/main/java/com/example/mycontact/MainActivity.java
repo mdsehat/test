@@ -98,5 +98,4 @@ public class MainActivity extends AppCompatActivity {
         }).setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
         return super.onCreateOptionsMenu(menu);
     }
-    private void a(){}
 }
